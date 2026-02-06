@@ -77,7 +77,7 @@ class PaginatedIterator extends ResourceIterator implements Iterator
      * @param array $data    Optional data to set initially
      * @return static
      */
-    public static function factory($parent, array $options = array(), array $data = null)
+    public static function factory($parent, array $options = array(), $data = null)
     {
         $list = new static();
 
